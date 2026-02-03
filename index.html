@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Morning Brew Café | Fresh Coffee, Local Vibes</title>
 
   <!-- Tailwind CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
 
   <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
     href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Inter:wght@100..900&display=swap"
     rel="stylesheet"
-  >
+  />
 
   <style>
     body {
@@ -25,14 +25,11 @@
       font-family: 'Playfair Display', serif;
     }
   </style>
-
-  <!-- If you really have an index.css, keep this; otherwise remove this line or create the file -->
-  <!-- <link rel="stylesheet" href="/index.css"> -->
 </head>
 <body class="bg-[#FAF9F6] text-[#332D2D]">
   <div id="root"></div>
 
-  <!-- Hand off everything to Vite + React in index.tsx -->
-  <script type="module" src="./index.tsx"></script>
+  <!-- Vite entry: src/main.tsx (Vite will rewrite this to built JS in dist) -->
+  <script type="module" src="/src/main.tsx"></script>
 </body>
 </html>
