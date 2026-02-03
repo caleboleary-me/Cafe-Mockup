@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   // Use '/' for custom domains so assets load from the root
-  base: '/', 
+  base: './', 
   plugins: [react()],
   build: {
     outDir: 'dist',
